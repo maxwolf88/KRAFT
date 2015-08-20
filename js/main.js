@@ -8,7 +8,13 @@ $(document).ready(function() {
         singleItem:true}
     );
 
-    $( "#menu" ).selectmenu();
+    $( "#menu" ).selectmenu(
+
+    );
+
+    $( "#menu-two" ).selectmenu(
+        {width:293}
+    );
 });
 
 
